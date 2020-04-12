@@ -22,8 +22,8 @@ function App() {
       owner: "Bruno Marques"
     });
     const project = response.data;
-    setProject([...projects,project]);   
-    
+    setProject([...projects,project]);
+  
   }
 
   return (
